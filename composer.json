@@ -1,0 +1,38 @@
+{
+    "name": "meilleursbiens/laravel-slack-events",
+    "description": "Handle Slack Events in Laravel easily",
+    "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
+    "require": {
+        "illuminate/http": "^10",
+        "illuminate/support": "^10",
+        "illuminate/routing": "^10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7||^5.0||^8.0||^9.0",
+        "orchestra/testbench": "~3.0||^4.0||^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeilleursBiens\\LaravelSlackEvents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MeilleursBiens\\LaravelSlackEvents\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MeilleursBiens\\LaravelSlackEvents\\SlackEventsServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clément de Louvencourt",
+            "email": "clement@meilleursbiens.com"
+        }
+    ]
+}
