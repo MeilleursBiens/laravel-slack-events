@@ -1,12 +1,12 @@
 {
     "name": "meilleursbiens/laravel-slack-events",
     "description": "Handle Slack Events in Laravel easily",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "keywords": ["slack", "laravel", "api", "slack api", "slack events api", "events", "slack events"],
     "require": {
-        "illuminate/http": "^10|^11|^12",
-        "illuminate/support": "^10|^11|^12",
-        "illuminate/routing": "^10|^11|^12"
+        "illuminate/http": "^10|^11|^12|^13",
+        "illuminate/support": "^10|^11|^12|^13",
+        "illuminate/routing": "^10|^11|^12|^13"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.7||^5.0||^8.0||^9.0",
